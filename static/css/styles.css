@@ -14,14 +14,15 @@
     bottom: 0;
 }
 .bottom-image {
-    max-width: 100%; /* Set the maximum width */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; 
+    height: auto; 
+	margin: 0;
+	padding: 0;
 }
 .scrollable-area {
-    max-height: 400px; 
+    max-height: 300px; 
     overflow-y: auto;
     overflow-x: hidden;
     border: 1px solid #dee2e6;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding-top: 10px;
 }
